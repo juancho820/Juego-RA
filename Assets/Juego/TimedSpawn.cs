@@ -16,7 +16,8 @@ public class TimedSpawn : MonoBehaviour {
 	
     public void SpawnObject()
     {
-        Instantiate(spawnee, transform.position, transform.rotation);
+        GameObject bolita = Instantiate(spawnee, transform.position, transform.rotation);
+        bolita.transform.parent = gameObject.transform;
         if (stopSpawning)
         {
             CancelInvoke("SpawnObject");
