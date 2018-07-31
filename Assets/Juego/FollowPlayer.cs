@@ -5,14 +5,14 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour {
 
     private GameObject wayPoint;
-    private Animation anim;
+    //private Animation anim;
     private Vector3 wayPointPos;
     //This will be the zombie's speed. Adjust as necessary.
     private float speed = 4.0f;
     void Start()
     {
         //At the start of the game, the zombies will find the gameobject called wayPoint.
-        anim.GetComponent<Animation>();
+        //anim.GetComponent<Animation>();
         wayPoint = GameObject.FindGameObjectWithTag("Player");
         
     }
@@ -30,6 +30,11 @@ public class FollowPlayer : MonoBehaviour {
         //{
         //    anim.Play("Idle");
         //}
+        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            Debug.Log("Tocado");
+            Destroy(gameObject);
+        }
 
     }
 }
