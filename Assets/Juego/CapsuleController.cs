@@ -24,7 +24,7 @@ public class CapsuleController : MonoBehaviour {
 
         Vector3 movement = new Vector3(x, 0, y);
 
-        rb.velocity = movement * 1.2f;
+        rb.velocity = movement * 2f;
 
         if(x != 0 && y != 0)
         {
@@ -39,12 +39,17 @@ public class CapsuleController : MonoBehaviour {
             anim.Play("Idle");
         }
     }
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Moneda")
         {
             GameManager.Instance.GetCoin();
             Destroy(other.gameObject);
+        }
+        if (other.tag == "Enemy")
+        {
+            Debug.Log("Hola2");
+            GameManager.Instance.Loser();
         }
     }
 }
