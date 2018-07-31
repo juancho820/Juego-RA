@@ -43,6 +43,7 @@ public class CapsuleController : MonoBehaviour {
     {
         if(other.tag == "Moneda")
         {
+            GameManager.Instance.GetCoin();
             Destroy(other.gameObject);
         }
     }
