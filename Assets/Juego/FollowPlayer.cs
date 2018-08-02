@@ -38,4 +38,12 @@ public class FollowPlayer : MonoBehaviour {
         }
 
     }
+
+    public void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.tag == "Bullet")
+        {
+            Destroy(this);
+        }
+    }
 }

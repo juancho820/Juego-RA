@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Moneda
+  - Bullet
   layers:
   - Default
   - TransparentFX
