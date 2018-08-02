@@ -51,9 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Juego\Bullets.cs" />
      <Compile Include="Assets\Juego\CapsuleController.cs" />
      <Compile Include="Assets\Juego\FollowPlayer.cs" />
      <Compile Include="Assets\Juego\GameManager.cs" />
+     <Compile Include="Assets\Juego\Press_Space_to_Fire.cs" />
      <Compile Include="Assets\Juego\TimedSpawn.cs" />
      <Compile Include="Assets\Script\CameraFocusController.cs" />
      <Compile Include="Assets\Script\rotObj.cs" />

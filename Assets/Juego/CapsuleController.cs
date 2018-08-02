@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.EventSystems;
 
 public class CapsuleController : MonoBehaviour {
 
@@ -9,8 +10,10 @@ public class CapsuleController : MonoBehaviour {
     private Rigidbody rb;
     private Animation anim;
 
-	// Use this for initialization
-	void Start () {
+    public static bool ispressed = false;
+
+    // Use this for initialization
+    void Start () {
 
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animation>();
@@ -32,12 +35,28 @@ public class CapsuleController : MonoBehaviour {
         }
         if (x != 0 || y != 0)
         {
-            anim.Play("Run");
+            if (ispressed == true)
+            {
+                anim.Play("RunFire");
+            }
+            else
+            {
+                anim.Play("Run");
+            }
         }
         else
         {
-            anim.Play("Idle");
+            
+            if (ispressed == true)
+            {
+                anim.Play("Fire");
+            }
+            else
+            {
+                anim.Play("Idle");
+            }
         }
+        
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -48,8 +67,16 @@ public class CapsuleController : MonoBehaviour {
         }
         if (other.tag == "Enemy")
         {
-            Debug.Log("Hola2");
             GameManager.Instance.Loser();
         }
+    }
+    public void Fire()
+    {
+        ispressed = true;
+    }
+
+    public void noFire()
+    {
+        ispressed = false;
     }
 }

@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour {
 
     public void Loser()
     {
-        Debug.Log("Hola");
         Lose.SetActive(true);
 
     }

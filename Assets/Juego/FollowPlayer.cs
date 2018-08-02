@@ -5,15 +5,15 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour {
 
     private GameObject wayPoint;
-    //private Animation anim;
+    //public Animator anim;
     private Vector3 wayPointPos;
     //This will be the zombie's speed. Adjust as necessary.
-    private float speed = 4.0f;
+    private float speed = 1.0f;
     void Start()
     {
         //At the start of the game, the zombies will find the gameobject called wayPoint.
-        //anim.GetComponent<Animation>();
         wayPoint = GameObject.FindGameObjectWithTag("Player");
+        //anim.Play("Walk");
         
     }
 
@@ -22,6 +22,7 @@ public class FollowPlayer : MonoBehaviour {
         wayPointPos = new Vector3(wayPoint.transform.position.x, transform.position.y, wayPoint.transform.position.z);
         //Here, the zombie's will follow the waypoint.
         transform.position = Vector3.MoveTowards(transform.position, wayPointPos, speed * Time.deltaTime);
+        transform.LookAt(wayPointPos);
         //if (wayPointPos- > 5)
         //{
         //    anim.Play("Walk");
