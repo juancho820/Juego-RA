@@ -68,6 +68,7 @@ public class CapsuleController : MonoBehaviour {
         if (other.tag == "Enemy")
         {
             GameManager.Instance.Loser();
+            Time.timeScale = 0;
         }
     }
     public void Fire()

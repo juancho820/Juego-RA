@@ -39,11 +39,11 @@ public class FollowPlayer : MonoBehaviour {
 
     }
 
-    public void OnCollisionEnter(Collision other)
+    public void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Bullet")
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
     }
 }
