@@ -22,11 +22,7 @@ public class Bullets : MonoBehaviour {
         if(CapsuleController.ispressed == true && fireRate == true)
         {
             Temporary_Bullet_Handler = Instantiate(Bullet, Emitter.transform.position, Emitter.transform.rotation) as GameObject;
-            Temporary_Bullet_Handler.transform.Rotate(Vector3.left * 90);
-            Rigidbody Temporary_RigidBody;
-            Temporary_RigidBody = Temporary_Bullet_Handler.GetComponent<Rigidbody>();
-
-            Temporary_RigidBody.AddForce(transform.forward * Force);
+            Temporary_Bullet_Handler.transform.Rotate(Vector3.left);
 
             Destroy(Temporary_Bullet_Handler, 4.0f);
 
