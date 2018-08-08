@@ -31,11 +31,11 @@ public class FollowPlayer : MonoBehaviour {
         //{
         //    anim.Play("Idle");
         //}
-        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
-        {
-            Debug.Log("Tocado");
-            Destroy(gameObject);
-        }
+        //if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
+        //{
+        //    Debug.Log("Tocado");
+        //    Destroy(gameObject);
+        //}
 
     }
 
@@ -44,6 +44,7 @@ public class FollowPlayer : MonoBehaviour {
         if(other.gameObject.tag == "Bullet")
         {
             Destroy(this.gameObject);
+            GameManager.Instance.GetCoin();
         }
     }
 }

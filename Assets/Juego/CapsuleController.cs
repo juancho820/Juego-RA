@@ -60,11 +60,11 @@ public class CapsuleController : MonoBehaviour {
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Moneda")
-        {
-            GameManager.Instance.GetCoin();
-            Destroy(other.gameObject);
-        }
+        //if(other.tag == "Moneda")
+        //{
+        //    GameManager.Instance.GetCoin();
+        //    Destroy(other.gameObject);
+        //}
         if (other.tag == "Enemy")
         {
             GameManager.Instance.Loser();

@@ -183,7 +183,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 69d7d01d14b2cb1bf7ea22ff94f3abfc Assembly-CSharp.dll:Vuforia.DefaultSmartTerrainEventHandler
 4fa9b86a12f2cfc5f5a891b98daa86c2 Assembly-CSharp.dll:.TimedSpawn
+446eb2dd6ff63772b3c144144ea351e6 Assembly-CSharp.dll:.Bulletas
 d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBuildingBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocusController
-80fe860fd6e72ddb0470e6becacf2621 Assembly-CSharp.dll:.GameManager
+0989f909f3441d95ec3db93b4904969c Assembly-CSharp.dll:.GameManager
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration
