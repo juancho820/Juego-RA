@@ -186,5 +186,5 @@ a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 446eb2dd6ff63772b3c144144ea351e6 Assembly-CSharp.dll:.Bulletas
 d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBuildingBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocusController
-0989f909f3441d95ec3db93b4904969c Assembly-CSharp.dll:.GameManager
+ba40b981b1cd3ea2aaee7cbfb1b90cd8 Assembly-CSharp.dll:.GameManager
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration
