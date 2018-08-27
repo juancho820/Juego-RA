@@ -9,6 +9,7 @@ public class Bullets : MonoBehaviour {
     private GameObject Temporary_Bullet_Handler;
     private GameObject Temporary_Bullet_Handler2;
     private GameObject Temporary_Bullet_Handler3;
+    public ParticleSystem ps;
     private float cooldown;
     private bool fireRate = true;
 
@@ -22,6 +23,8 @@ public class Bullets : MonoBehaviour {
 
         if(CapsuleController.ispressed == true && fireRate == true)
         {
+            ps.Play();
+
             Temporary_Bullet_Handler = Instantiate(bullet, emitter.transform.position, emitter.transform.rotation) as GameObject;
             Temporary_Bullet_Handler.transform.Rotate(Vector3.left);
 
