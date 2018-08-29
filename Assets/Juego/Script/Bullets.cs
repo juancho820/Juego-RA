@@ -4,19 +4,27 @@ using UnityEngine;
 
 public class Bullets : MonoBehaviour {
 
-    public GameObject emitter;
-    public GameObject bullet;
+    [SerializeField]
+    private GameObject emitter;
+    [SerializeField]
+    private GameObject bullet;
+
+    private AudioSource audioSource;
     private GameObject Temporary_Bullet_Handler;
     private GameObject Temporary_Bullet_Handler2;
     private GameObject Temporary_Bullet_Handler3;
-    public ParticleSystem ps;
+
+    [SerializeField]
+    private ParticleSystem ps;
+
     private float cooldown;
     private bool fireRate = true;
 
 	// Use this for initialization
 	void Start () {
         cooldown = 0.5f;
-	}
+        audioSource = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -24,6 +32,8 @@ public class Bullets : MonoBehaviour {
         if(CapsuleController.ispressed == true && fireRate == true)
         {
             ps.Play();
+            audioSource.Play();
+
 
             Temporary_Bullet_Handler = Instantiate(bullet, emitter.transform.position, emitter.transform.rotation) as GameObject;
             Temporary_Bullet_Handler.transform.Rotate(Vector3.left);

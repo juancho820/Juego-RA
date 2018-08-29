@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour {
 
-    public int force;
+    [SerializeField]
+    private int force;
 
 	void Update () {
 

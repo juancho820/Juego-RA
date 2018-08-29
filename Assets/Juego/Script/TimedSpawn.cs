@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class TimedSpawn : MonoBehaviour {
 
-    public GameObject spawnee;
+    [SerializeField]
+    private GameObject spawnee;
+
     private bool stopSpawning = false;
-    public float spawnTime;
-    public float spawnDelay;
+
+    [SerializeField]
+    private float spawnTime;
+    [SerializeField]
+    private float spawnDelay;
 
 	// Use this for initialization
 	void Start () {

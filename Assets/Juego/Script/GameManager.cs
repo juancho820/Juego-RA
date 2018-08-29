@@ -6,15 +6,22 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
-    public Text score;
-    public GameObject lose;
-    public Text Highscore;
+    [SerializeField]
+    private GameObject lose;
+    [SerializeField]
+    private Text score;
+    [SerializeField]
+    private Text Highscore;
+    [SerializeField]
+    private Text tiempoText;
+    [SerializeField]
+    private Text finalScore;
+    [SerializeField]
+    private Text tiempoFinal;
+
     private int scoreCoins;
     private int highscore;
-    public Text tiempoText;
     private float tiempo = 0;
-    public Text finalScore;
-    public Text tiempoFinal;
     private bool muerto;
 
     public static GameManager Instance { set; get; }
@@ -33,13 +40,6 @@ public class GameManager : MonoBehaviour {
         }
 
         tiempoText.text = "Segundos: " + tiempo.ToString("0");
-
-        //if (tiempo <= 0)
-        //{
-        //    Loser();
-        //    tiempo = 0;
-        //    Time.timeScale = 0;
-        //}
     }
 
     public void GetCoin()
