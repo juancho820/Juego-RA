@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 148
+  controlID: 75
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,7 +397,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 9ccdffff84ceffffdccfffff9efbffff00000000
+    m_ExpandedIDs: 9eafffff38b1ffff90b2ffff26faffff84fbffff0000000060300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -657,19 +657,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Juego/Script
+    - Assets/ToonyTinyPeople/TT_demo/prefabs
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/Juego/Script
+  - Assets/ToonyTinyPeople/TT_demo/prefabs
   m_LastFoldersGridSize: 68
   m_LastProjectPath: E:\GitHub\Juego RA
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 143}
-    m_SelectedIDs: 9c290000
-    m_LastClickedID: 10652
-    m_ExpandedIDs: 000000005629000082290000c4290000222a0000762a0000ca2a0000e82a0000542c0000182d0000ae2d0000f62d00002c2e0000dc2e0000ec2e00006a3200006c3200006e32000070320000723200007432000076320000783200007a3200007c3200007e32000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 508}
+    m_SelectedIDs: 4a2d0000
+    m_LastClickedID: 11594
+    m_ExpandedIDs: 00000000602900008a290000cc2900002c2a00007e2a0000d42a0000f22a0000602c0000262d0000b82d0000002e0000342e0000e82e0000f82e0000723200007432000076320000783200007a3200007c3200007e3200008032000082320000843200008632000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +697,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005629000082290000c4290000222a0000762a0000ca2a0000e82a0000542c0000182d0000ae2d0000f62d00002c2e0000dc2e0000ec2e00006a3200006c3200006e32000070320000723200007432000076320000783200007a3200007c3200007e320000
+    m_ExpandedIDs: 00000000602900008a290000cc2900002c2a00007e2a0000d42a0000f22a0000602c0000262d0000b82d0000002e0000342e0000e82e0000f82e0000723200007432000076320000783200007a3200007c3200007e32000080320000823200008432000086320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
