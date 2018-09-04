@@ -310,6 +310,7 @@
     <Compile Include="Assets\Juego\Script\Bullets.cs" />
     <Compile Include="Assets\Juego\Script\CameraFocusController.cs" />
     <Compile Include="Assets\Juego\Script\CapsuleController.cs" />
+    <Compile Include="Assets\Juego\Script\detected.cs" />
     <Compile Include="Assets\Juego\Script\FollowPlayer.cs" />
     <Compile Include="Assets\Juego\Script\GameManager.cs" />
     <Compile Include="Assets\Juego\Script\TimedSpawn.cs" />
