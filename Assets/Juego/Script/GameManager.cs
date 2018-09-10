@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour {
     void Start () {
         Time.timeScale = 1;
         Instance = this;
-        score.text = "Puntaje: " + scoreCoins.ToString("0");
+        score.text = scoreCoins.ToString("0");
     }
 
     private void FixedUpdate()
@@ -39,13 +39,13 @@ public class GameManager : MonoBehaviour {
             tiempo += Time.fixedDeltaTime;
         }
 
-        tiempoText.text = "Segundos: " + tiempo.ToString("0");
+        tiempoText.text = tiempo.ToString("0");
     }
 
     public void GetCoin()
     {
         scoreCoins++;
-        score.text = "Puntaje: " + scoreCoins.ToString("0");
+        score.text = scoreCoins.ToString("0");
     }
 
     public void Loser()
