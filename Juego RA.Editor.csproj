@@ -307,21 +307,17 @@
       <Project>{7306DD99-C40B-9171-5F2F-1D9A8E06849E}</Project>
       <Name>Juego RA</Name>
     </ProjectReference>
-    <ProjectReference Include="Juego RA.Plugins.csproj">
-      <Project>{8B0ABE44-17EF-E70A-986F-BD8F4921B655}</Project>
-      <Name>Juego RA.Plugins</Name>
-    </ProjectReference>
-    <ProjectReference Include="Juego RA.Editor.Plugins.csproj">
-      <Project>{BC59A5F7-4202-299E-57C9-13C20399650F}</Project>
-      <Name>Juego RA.Editor.Plugins</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\EffectControllerInspector.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\EffectToolBar.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\RenderEffectInspector.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\ShaderCustomEditor\ShaderMaterialsEditor.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\XUIUtils.cs" />
+    <Compile Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Editor\EffectControllerInspector.cs" />
+    <Compile Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Editor\EffectToolBar.cs" />
+    <Compile Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Editor\RenderEffectInspector.cs" />
+    <Compile Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Editor\ShaderCustomEditor\ShaderMaterialsEditor.cs" />
+    <Compile Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Editor\XUIUtils.cs" />
+    <Compile Include="Assets\Survival\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+    <Compile Include="Assets\Topos\Juego\Prefabs\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Editor\Tools\AboutEW.cs" />
+    <Compile Include="Assets\Topos\Juego\Prefabs\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Editor\Tools\ContinuationManager.cs" />
+    <Compile Include="Assets\Topos\Juego\Prefabs\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Editor\Tools\wHiteRabbiTEW.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -329,19 +325,29 @@
     <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
-    <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
+    <None Include="Assets\Hockey\Scripts\surface.shader" />
+    <None Include="Assets\Hockey\license_3rdpartynotice.txt" />
+    <None Include="Assets\Hockey\link.xml" />
+    <None Include="Assets\Hockey\readme_SDK.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Plugins\iOS\Vuforia.UnityExtensions.iOS.XML" />
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\RealidadAumentada.xml" />
+    <None Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+    <None Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+    <None Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+    <None Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+    <None Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
+    <None Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
+    <None Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+    <None Include="Assets\Survival\Particlecollection_Free samples\READ ME.txt" />
+    <None Include="Assets\Survival\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Survival\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Topos\Juego\Prefabs\BrokenVector\FreeLowPolyPack\readme.txt" />
+    <None Include="Assets\Topos\Juego\Prefabs\WR_wHiteRabbiT-sTudio\Scene\DancingRabbit\ReadMe.txt" />
+    <None Include="Assets\Topos\license_3rdpartynotice.txt" />
+    <None Include="Assets\Topos\link.xml" />
+    <None Include="Assets\Topos\readme_SDK.txt" />
+    <None Include="Assets\Topos\surface.shader" />
     <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
     <None Include="Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.XML" />
