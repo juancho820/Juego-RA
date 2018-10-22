@@ -29,7 +29,7 @@ public class GameManagerLego : MonoBehaviour
 {
     private EventSystem es;
 
-    private float blockSize = 0.25f;
+    private float blockSize = 2.5f;
 
     public Block[,,] blocks = new Block[20, 20, 20];
     public GameObject blockPrefab;
@@ -39,7 +39,7 @@ public class GameManagerLego : MonoBehaviour
 
     private GameObject foundationObject;
     private Vector3 blockOffset;
-    private Vector3 foundationCenter = new Vector3(1.25f, 0, 1.25f);
+    private Vector3 foundationCenter = new Vector3(12.5f, 0, 12.5f);
     private bool isDeleting;
 
     private BlockAction previewAction;
@@ -48,7 +48,7 @@ public class GameManagerLego : MonoBehaviour
     {
         Screen.orientation = ScreenOrientation.Landscape;
         foundationObject = GameObject.Find("Foundation");
-        blockOffset = (Vector3.one * 0.5f) / 4;
+        blockOffset = (Vector3.one * 5.0f) / 4;
         selectedColor = BlockColor.White;
 
         es = FindObjectOfType<EventSystem>();
@@ -156,6 +156,7 @@ public class GameManagerLego : MonoBehaviour
 
     public void ChangeBlockColor(int color)
     {
+        isDeleting = false;
         selectedColor = (BlockColor)color;
     }
 

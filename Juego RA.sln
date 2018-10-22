@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juego RA", "Juego RA.csproj", "{7306DD99-C40B-9171-5F2F-1D9A8E06849E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juego RA.Editor", "Juego RA.Editor.csproj", "{9E8137A1-8F2B-B3A7-2660-AAA978418134}"

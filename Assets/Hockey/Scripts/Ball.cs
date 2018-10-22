@@ -34,6 +34,7 @@ public class Ball : MonoBehaviour {
             {
                 rigid.AddForce(new Vector3(-0.7f, 0, 0));
             }
+            
         }
     }
 
@@ -41,7 +42,7 @@ public class Ball : MonoBehaviour {
     {
         startTime = 2f;
         start = false;
-        transform.localPosition = new Vector3(0, 0.02f, 0);
+        transform.localPosition = new Vector3(0, 0.035f, 0);
         rigid.velocity = new Vector3(0, 0, 0);
     }
 }
