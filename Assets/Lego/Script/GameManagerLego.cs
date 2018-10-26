@@ -29,7 +29,7 @@ public class GameManagerLego : MonoBehaviour
 {
     private EventSystem es;
 
-    private float blockSize = 2.5f;
+    private float blockSize = 1.5f;
 
     public Block[,,] blocks = new Block[20, 20, 20];
     public GameObject blockPrefab;
@@ -38,8 +38,9 @@ public class GameManagerLego : MonoBehaviour
     public Material[] blockMaterials;
 
     private GameObject foundationObject;
+    private GameObject foundationObject2;
     private Vector3 blockOffset;
-    private Vector3 foundationCenter = new Vector3(12.5f, 0, 12.5f);
+    private Vector3 foundationCenter = new Vector3(7.5f, 0, 7.5f);
     private bool isDeleting;
 
     private BlockAction previewAction;
@@ -48,7 +49,8 @@ public class GameManagerLego : MonoBehaviour
     {
         Screen.orientation = ScreenOrientation.Landscape;
         foundationObject = GameObject.Find("Foundation");
-        blockOffset = (Vector3.one * 5.0f) / 4;
+        foundationObject2 = GameObject.Find("Foundation2");
+        blockOffset = (Vector3.one * (blockSize*2)) / 4;
         selectedColor = BlockColor.White;
 
         es = FindObjectOfType<EventSystem>();
@@ -58,7 +60,7 @@ public class GameManagerLego : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (es.IsPointerOverGameObject())
+            if (IsPointerOverUIObject())
             {
                 return;
             }
@@ -68,7 +70,7 @@ public class GameManagerLego : MonoBehaviour
             {
                 if (isDeleting)
                 {
-                    if (hit.transform.name != "Foundation")
+                    if (hit.transform.name != "Foundation" || hit.transform.name != "Foundation2")
                     {
                         Vector3 oldCubeIndex = BlockPosition(hit.point - (hit.normal * (blockSize - 0.01f)));
                         BlockColor previousColor = blocks[(int)oldCubeIndex.x, (int)oldCubeIndex.y, (int)oldCubeIndex.z].color;
@@ -218,5 +220,14 @@ public class GameManagerLego : MonoBehaviour
     public void Lobby()
     {
         SceneManager.LoadScene("Lobby");
+    }
+
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
     }
 }

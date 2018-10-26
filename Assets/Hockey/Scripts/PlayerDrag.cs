@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDrag : MonoBehaviour {
+public class PlayerDrag : MonoBehaviour
+{
+
     private Vector3 screenPoint;
     private Vector3 offset;
 

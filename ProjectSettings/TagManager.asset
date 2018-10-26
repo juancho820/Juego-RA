@@ -8,6 +8,8 @@ TagManager:
   - Moneda
   - Bullet
   - Player2
+  - Ball
+  - Desactivar
   layers:
   - Default
   - TransparentFX

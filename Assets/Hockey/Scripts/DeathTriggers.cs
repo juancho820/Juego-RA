@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeathTriggers : MonoBehaviour {
+public class DeathTriggers : MonoBehaviour
+{
     [SerializeField] private GuiScores scores;
     [SerializeField] private int identifier;
 
@@ -22,7 +23,7 @@ public class DeathTriggers : MonoBehaviour {
             {
                 
             }
-            Ball ballScript = other.GetComponent<Ball>();
+            var ballScript = other.GetComponent<Ball>();
             ballScript.RestartBall();
         }
     }

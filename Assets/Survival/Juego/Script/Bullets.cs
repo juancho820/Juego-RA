@@ -29,7 +29,7 @@ public class Bullets : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if(CapsuleController.ispressed == true && fireRate == true)
+        if(GetComponent<CapsuleController>().ispressed == true && fireRate == true)
         {
             ps.Play();
             audioSource.Play();
@@ -37,12 +37,15 @@ public class Bullets : MonoBehaviour {
 
             Temporary_Bullet_Handler = Instantiate(bullet, emitter.transform.position, emitter.transform.rotation) as GameObject;
             Temporary_Bullet_Handler.transform.Rotate(Vector3.left);
+            Temporary_Bullet_Handler.transform.parent = transform.parent;
 
             Temporary_Bullet_Handler2 = Instantiate(bullet, emitter.transform.position, emitter.transform.rotation) as GameObject;
             Temporary_Bullet_Handler2.transform.Rotate(Vector3.up * 20);
+            Temporary_Bullet_Handler2.transform.parent = transform.parent;
 
             Temporary_Bullet_Handler3 = Instantiate(bullet, emitter.transform.position, emitter.transform.rotation) as GameObject;
             Temporary_Bullet_Handler3.transform.Rotate(Vector3.up * -20);
+            Temporary_Bullet_Handler3.transform.parent = transform.parent;
 
             Destroy(Temporary_Bullet_Handler, 4.0f);
             Destroy(Temporary_Bullet_Handler2, 4.0f);

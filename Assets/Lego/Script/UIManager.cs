@@ -12,13 +12,13 @@ public class UIManager : MonoBehaviour {
     private float menuAnimationTransition;
     private float animationDuration = 0.2f;
 
+    private void Start()
+    {
+        OnTheOneButtonClick();
+    }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            OnTheOneButtonClick();
-        }
-
         if (menuAnimating)
         {
             if (areMenusShowing)

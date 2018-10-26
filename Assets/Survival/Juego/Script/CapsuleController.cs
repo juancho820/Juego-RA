@@ -9,7 +9,7 @@ public class CapsuleController : MonoBehaviour {
     private Rigidbody rb;
     private Animation anim;
 
-    public static bool ispressed = false;
+    public bool ispressed = false;
 
     void Start () {
 

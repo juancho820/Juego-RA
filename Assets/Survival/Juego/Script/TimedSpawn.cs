@@ -22,7 +22,7 @@ public class TimedSpawn : MonoBehaviour {
     public void SpawnObject()
     {
         GameObject enemmigo = Instantiate(spawnee, transform.position, transform.rotation);
-        enemmigo.transform.parent = gameObject.transform;
+        enemmigo.transform.parent = transform.parent;
         if (stopSpawning)
         {
             CancelInvoke("SpawnObject");

@@ -303,7 +303,6 @@
   <ItemGroup>
     <Compile Include="Assets\Hockey\Scripts\Ball.cs" />
     <Compile Include="Assets\Hockey\Scripts\CameraFocusControllerHockey.cs" />
-    <Compile Include="Assets\Hockey\Scripts\ChangePlayer.cs" />
     <Compile Include="Assets\Hockey\Scripts\DeathTriggers.cs" />
     <Compile Include="Assets\Hockey\Scripts\detected.cs" />
     <Compile Include="Assets\Hockey\Scripts\GuiScores.cs" />
@@ -353,7 +352,6 @@
     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
-    <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
@@ -362,6 +360,11 @@
     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerAsados.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerLego.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerPampa.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerSurvival.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerTopos.cs" />
     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
