@@ -7181,7 +7181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 108542, guid: 03ec8208d85e6854e9bbaf76f65a8e9c, type: 2}
-  spawnTime: 1
+  spawnTime: 5
   spawnDelay: 5
 --- !u!1 &287186139
 GameObject:
@@ -7416,7 +7416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 108542, guid: 03ec8208d85e6854e9bbaf76f65a8e9c, type: 2}
-  spawnTime: 1
+  spawnTime: 5
   spawnDelay: 5
 --- !u!1001 &416790065
 Prefab:
@@ -7752,7 +7752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 108542, guid: 14fb53f2cd63dc748a001cc7b31bf21d, type: 2}
-  spawnTime: 1
+  spawnTime: 5
   spawnDelay: 5
 --- !u!1 &535891593
 GameObject:
@@ -7796,7 +7796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 108542, guid: 14fb53f2cd63dc748a001cc7b31bf21d, type: 2}
-  spawnTime: 1
+  spawnTime: 5
   spawnDelay: 5
 --- !u!1 &661782185 stripped
 GameObject:
@@ -9072,7 +9072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 108542, guid: 14fb53f2cd63dc748a001cc7b31bf21d, type: 2}
-  spawnTime: 1
+  spawnTime: 5
   spawnDelay: 5
 --- !u!1 &1115834211
 GameObject:
@@ -9116,7 +9116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 108542, guid: 14fb53f2cd63dc748a001cc7b31bf21d, type: 2}
-  spawnTime: 1
+  spawnTime: 5
   spawnDelay: 5
 --- !u!1 &1120618753
 GameObject:
@@ -19934,7 +19934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 108542, guid: 03ec8208d85e6854e9bbaf76f65a8e9c, type: 2}
-  spawnTime: 1
+  spawnTime: 5
   spawnDelay: 5
 --- !u!1 &1355531047
 GameObject:
@@ -31532,7 +31532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnee: {fileID: 108542, guid: 03ec8208d85e6854e9bbaf76f65a8e9c, type: 2}
-  spawnTime: 1
+  spawnTime: 5
   spawnDelay: 5
 --- !u!1 &1754535562
 GameObject:

@@ -71,6 +71,8 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+            TimedSpawn[] spawnComponents = GetComponentsInChildren<TimedSpawn>(true);
+            Bullets[] bulletsComponents = GetComponentsInChildren<Bullets>(true);
 
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
@@ -84,6 +86,16 @@ namespace Vuforia
                 component.enabled = true;
             }
 
+            foreach (TimedSpawn component in spawnComponents)
+            {
+                component.enabled = true;
+            }
+
+            foreach (Bullets component in bulletsComponents)
+            {
+                component.enabled = true;
+            }
+
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
 
@@ -92,6 +104,8 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+            TimedSpawn[] spawnComponents = GetComponentsInChildren<TimedSpawn>(true);
+            Bullets[] bulletsComponents = GetComponentsInChildren<Bullets>(true);
 
             // Disable rendering:
             foreach (Renderer component in rendererComponents)
@@ -101,6 +115,16 @@ namespace Vuforia
 
             // Disable colliders:
             foreach (Collider component in colliderComponents)
+            {
+                component.enabled = false;
+            }
+
+            foreach (TimedSpawn component in spawnComponents)
+            {
+                component.enabled = false;
+            }
+
+            foreach (Bullets component in bulletsComponents)
             {
                 component.enabled = false;
             }
