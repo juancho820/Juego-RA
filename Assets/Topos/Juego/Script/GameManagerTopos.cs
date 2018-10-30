@@ -28,6 +28,7 @@ public class GameManagerTopos : MonoBehaviour {
     public GameObject win;
     public GameObject touch;
     public GameObject touch2;
+    public GameObject touch3;
 
     private RaycastHit hit;
     private Ray ray;
@@ -72,6 +73,10 @@ public class GameManagerTopos : MonoBehaviour {
                     touch2.transform.position = hit.point + new Vector3(0, 0.01f, 0);
                     touch2.SetActive(true);
                     touch2.GetComponentInChildren<Animator>().Play("Bounce");
+
+                    touch3.transform.position = hit.point + new Vector3(0, 0.01f, 0);
+                    touch3.SetActive(true);
+                    touch3.GetComponentInChildren<Animator>().Play("Bounce");
                 }
             }
         }

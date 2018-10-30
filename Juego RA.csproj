@@ -319,6 +319,7 @@
     <Compile Include="Assets\Survival\Juego\Script\detectedSurvival.cs" />
     <Compile Include="Assets\Survival\Juego\Script\FollowPlayer.cs" />
     <Compile Include="Assets\Survival\Juego\Script\FollowPlayerDos.cs" />
+    <Compile Include="Assets\Survival\Juego\Script\FollowPlayerTres.cs" />
     <Compile Include="Assets\Survival\Juego\Script\GameManagerSurvival.cs" />
     <Compile Include="Assets\Survival\Juego\Script\TimedSpawn.cs" />
     <Compile Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
@@ -361,6 +362,7 @@
     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerAsados.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerHalong.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerLego.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerPampa.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerSurvival.cs" />
