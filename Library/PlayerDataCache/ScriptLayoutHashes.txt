@@ -60,6 +60,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 1d4ebaf87b92d7b8977180ac77d762db Assembly-CSharp.dll:.GuiScores
 44b7796d16ceaf981bdce9f77c0f3308 Assembly-CSharp.dll:Vuforia.ImageTargetBehaviour
 8e9f5b922979e9356a11d2ee2b32ee60 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FollowPlayerTres
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -108,6 +109,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.detected
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FollowPlayerDos
+b0bc916aecad6ac5cae9acfa750ec5bb Assembly-CSharp.dll:Vuforia.DefaultTrackableEventHandlerHalong
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -213,7 +215,7 @@ d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBu
 569e16817b3d0a3daadbe6c3d97d7996 Assembly-CSharp.dll:.RenderEffect
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameManagerLobby
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocusController
-81137c872a36dedb5947d67b8b32551c Assembly-CSharp.dll:.GameManagerTopos
+1046f2f471130cb5b7668121fc8ed0cc Assembly-CSharp.dll:.GameManagerTopos
 cc77d7bb90e1aee41b89b52b5db194fe Assembly-CSharp.dll:.GameManagerSurvival
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.DefaultTrackableEventHandlerSurvival

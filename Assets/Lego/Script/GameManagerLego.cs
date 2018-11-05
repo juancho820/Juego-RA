@@ -220,6 +220,7 @@ public class GameManagerLego : MonoBehaviour
     public void Lobby()
     {
         SceneManager.LoadScene("Lobby");
+        SceneManager.UnloadSceneAsync("Lego");
     }
 
     private bool IsPointerOverUIObject()

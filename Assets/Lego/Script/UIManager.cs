@@ -10,14 +10,18 @@ public class UIManager : MonoBehaviour {
     private bool menuAnimating;
     private bool areMenusShowing;
     private float menuAnimationTransition;
-    private float animationDuration = 0.2f;
+    private float animationDuration;
 
-    private void Start()
+    private void Awake()
     {
-        OnTheOneButtonClick();
+        menuAnimating = false;
+        menuAnimationTransition = 1;
+        animationDuration = 0.2f;
+        areMenusShowing = true;
+        //OnTheOneButtonClick();
     }
 
-    private void Update()
+    public void Update()
     {
         if (menuAnimating)
         {
@@ -51,7 +55,7 @@ public class UIManager : MonoBehaviour {
         PlayMenuAnimation();
     }
 
-    private void PlayMenuAnimation()
+    public void PlayMenuAnimation()
     {
         menuAnimating = true;
     }

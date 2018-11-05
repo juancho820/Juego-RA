@@ -24,6 +24,6 @@ public class GameManagerLobby : MonoBehaviour {
     }
     public void Lego()
     {
-        SceneManager.LoadScene("Lego");
+        SceneManager.LoadSceneAsync("Lego");
     }
 }
