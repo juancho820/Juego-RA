@@ -8,6 +8,8 @@ public class Topos : MonoBehaviour {
     private int random;
     private int random2;
 
+    private ParticleSystem ps;
+
     public bool tocado;
 
     private float tiempo;
@@ -18,6 +20,7 @@ public class Topos : MonoBehaviour {
     {
         RandomSelect();
         anim = GetComponent<Animator>();
+        ps = GetComponentInChildren<ParticleSystem>();
     }
 
     public void Update()
@@ -44,6 +47,7 @@ public class Topos : MonoBehaviour {
         }
         if (tocado == true)
         {
+            ps.Play();
             GameManagerTopos.Instance.noMasMonedas = true;
             GameManagerTopos.Instance.GetCoin();
             anim.SetTrigger("Bajar");

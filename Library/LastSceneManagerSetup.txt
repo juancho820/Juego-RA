@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Survival/Survival.unity
+- path: Assets/Topos/Topos.unity
   isLoaded: 1
   isActive: 1

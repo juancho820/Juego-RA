@@ -6,6 +6,8 @@ namespace UnityStandardAssets.CrossPlatformInput
 {
 	public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 	{
+        public GameObject texto;
+
 		public enum AxisOption
 		{
 			// Options for which axes to use
@@ -73,6 +75,8 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public void OnDrag(PointerEventData data)
 		{
+            texto.SetActive(false);
+
 			Vector3 newPos = Vector3.zero;
 
 			if (m_UseX)
