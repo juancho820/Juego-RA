@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Survival/Survival.unity
+- path: Assets/Lego/Lego.unity
   isLoaded: 1
   isActive: 1
