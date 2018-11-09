@@ -38,7 +38,6 @@ public class GameManagerLego : MonoBehaviour
     public Material[] blockMaterials;
 
     private GameObject foundationObject;
-    private GameObject foundationObject2;
     private Vector3 blockOffset;
     private Vector3 foundationCenter = new Vector3(7.5f, 0, 7.5f);
     private bool isDeleting;
@@ -49,7 +48,6 @@ public class GameManagerLego : MonoBehaviour
     {
         Screen.orientation = ScreenOrientation.Landscape;
         foundationObject = GameObject.Find("Foundation");
-        foundationObject2 = GameObject.Find("Foundation2");
         blockOffset = (Vector3.one * (blockSize*2)) / 4;
         selectedColor = BlockColor.White;
 
@@ -70,7 +68,7 @@ public class GameManagerLego : MonoBehaviour
             {
                 if (isDeleting)
                 {
-                    if (hit.transform.name != "Foundation" || hit.transform.name != "Foundation2")
+                    if (hit.transform.name != "Foundation")
                     {
                         Vector3 oldCubeIndex = BlockPosition(hit.point - (hit.normal * (blockSize - 0.01f)));
                         BlockColor previousColor = blocks[(int)oldCubeIndex.x, (int)oldCubeIndex.y, (int)oldCubeIndex.z].color;

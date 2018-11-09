@@ -92,7 +92,6 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
-            Rigidbody[] rigidbodyComponents = GetComponentsInChildren<Rigidbody>(true);
 
             // Disable rendering:
             foreach (Renderer component in rendererComponents)

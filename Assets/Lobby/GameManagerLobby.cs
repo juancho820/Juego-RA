@@ -24,6 +24,10 @@ public class GameManagerLobby : MonoBehaviour {
     }
     public void Lego()
     {
-        SceneManager.LoadSceneAsync("Lego");
+        SceneManager.LoadScene("Lego");
+    }
+    public void Empresa()
+    {
+        SceneManager.LoadScene("Empresa");
     }
 }
