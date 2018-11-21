@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LogoEmpresa/Empresa.unity
+- path: Assets/Experiencia/Experiencia.unity
   isLoaded: 1
   isActive: 1
