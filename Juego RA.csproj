@@ -301,6 +301,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Experiencia\GameManagerExperiencia.cs" />
     <Compile Include="Assets\Hockey\Scripts\Ball.cs" />
     <Compile Include="Assets\Hockey\Scripts\CameraFocusControllerHockey.cs" />
     <Compile Include="Assets\Hockey\Scripts\DeathTriggers.cs" />
@@ -363,6 +364,7 @@
     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
+    <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerExperiencia.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerHockey.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerLego.cs" />
     <Compile Include="Assets\Vuforia\Scripts\Juegos Imagenes\DefaultTrackableEventHandlerSurvival.cs" />

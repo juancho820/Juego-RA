@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LogoEmpresa/Empresa.unity
     guid: df2798fd58989264b8cbc03959103a6c
+  - enabled: 1
+    path: Assets/Experiencia/Experiencia.unity
+    guid: 90d258dbc261b254391731c249e59cab

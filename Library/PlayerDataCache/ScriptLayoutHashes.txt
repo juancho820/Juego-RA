@@ -6,6 +6,7 @@ Assets/Hockey/Hockey.unity
 Assets/Lego/Lego.unity
 Assets/Topos/Topos.unity
 Assets/LogoEmpresa/Empresa.unity
+Assets/Experiencia/Experiencia.unity
 SceneListEnd?
 268ef825502a475f763a8f3739ab652c Assembly-CSharp.dll:.VRIntegrationHelper
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -109,6 +110,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.detected
+c0123091353e116320a76ebe614173dc Assembly-CSharp.dll:.GameManagerExperiencia
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FollowPlayerDos
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -154,6 +156,7 @@ fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp.dll:UnityStandardAssets.CrossPl
 66ee6ce0968b1fa679c5c06187b8e23f Vuforia.UnityExtensions.dll:Vuforia.VuforiaAbstractBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.VuforiaDeinitBehaviour
 cbc48555a36fdc3b6e9c94b2e48061d3 Assembly-CSharp.dll:.GameManagerLego
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ManagerLogoEmpresa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.TurnOffWordBehaviour
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.ReconstructionFromTargetBehaviour
@@ -190,9 +193,11 @@ f67e4dccde37b3c42d067b6bf680c32e Assembly-CSharp.dll:Vuforia.TextRecoBehaviour
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FollowPlayerCinco
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 342c9a27403d4f1a11164f989d99bd3f Assembly-CSharp.dll:Vuforia.CloudRecoBehaviour
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FollowPlayerCuatro
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.VideoBackgroundBehaviour
 15bea26698002c6c4a3087131232ce5c Assembly-CSharp.dll:Vuforia.WordBehaviour
 3ad83d9b16897b0fec4f8b42b7498cdc Assembly-CSharp.dll:Vuforia.ObjectTargetBehaviour
@@ -217,6 +222,4 @@ d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBu
 cc77d7bb90e1aee41b89b52b5db194fe Assembly-CSharp.dll:.GameManagerSurvival
 7cac06ac0eaa7257b831c29e4455ce1b Assembly-CSharp.dll:Vuforia.VuforiaConfiguration
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.DefaultTrackableEventHandlerSurvival
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FollowPlayerCuatro
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FollowPlayerCinco
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ManagerLogoEmpresa
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.DefaultTrackableEventHandlerExperiencia

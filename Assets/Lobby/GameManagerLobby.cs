@@ -30,4 +30,8 @@ public class GameManagerLobby : MonoBehaviour {
     {
         SceneManager.LoadScene("Empresa");
     }
+    public void Experiencia()
+    {
+        SceneManager.LoadScene("Experiencia");
+    }
 }
