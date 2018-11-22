@@ -13,7 +13,7 @@ public class GameManagerExperiencia : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Screen.orientation = ScreenOrientation.Portrait;
+        Screen.orientation = ScreenOrientation.Landscape;
         i = 0;
 	}
 
